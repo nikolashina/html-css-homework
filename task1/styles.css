@@ -1,0 +1,42 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 20px; 
+    padding: 10px;
+}
+
+#main-title {
+    text-align: center;
+    color: #333;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 150px;
+    border: 2px solid #ccc;
+    display: block; 
+    margin: 0 auto 20px auto; 
+
+}
+
+
+ul, ol {
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+a:hover {
+   text-decoration: underline;
+}
+p {
+  margin-bottom: 10px;
+}
