@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 20px;
+}
+
+.card-container {
+    display: flex; /* Карточки в ряд */
+    justify-content: space-around; /* Распределяем пространство между карточками */
+    flex-wrap: wrap; /* Переносим карточки на новую строку при нехватке места */
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Тень */
+    text-align: center;
+    display: flex; /* для выравнивания контента по вертикали */
+    flex-direction: column; /* Располагаем контент по вертикали */
+    justify-content: space-between; /* Располагаем элементы на карточке */
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.card button {
+    background-color: #4CAF50; /* Зеленый цвет кнопки */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #367c39;
+}
