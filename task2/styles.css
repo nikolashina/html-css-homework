@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 1em 0;
+    display: block; /* для гарантии, что header занимает всю ширину */
+}
+
+main {
+    display: flex; /* Располагаем текст и изображение рядом */
+    padding: 20px;
+    align-items: flex-start; /* для выравнивания по началу */
+    gap: 20px; /* расстояние между блоками */
+}
+
+.text-section {
+    flex: 1; /* Текст займет оставшееся пространство */
+}
+
+.image-section {
+    flex: 0 0 auto; /* Изображение не будет "расти" */
+}
+
+.image-section img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ddd;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 30px;
+    padding: 1em 0;
+    background-color: #e0e0e0;
+}
